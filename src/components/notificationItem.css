@@ -1,0 +1,23 @@
+.notification-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notification-container > .content  {
+    display: flex;
+    align-items: center;
+}
+
+.notification-container > .content > img {
+  background-color: #eee;
+  width: 64px;
+  height: 64px;
+  border-radius: 32px;
+}
+
+.notification-container > .content > .message {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+}

@@ -1,0 +1,47 @@
+.community-container{
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.community-MyPost{
+  height: 20%;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid #eee;
+}
+.community-MyPost-btn{
+  width: 70%;
+  height: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 40px;
+}
+.myPost-profile-image {
+  width: 128px;
+  height: 128px;
+  background-color: #eee;
+  border-radius: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.community-OtherPost{
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.community-OtherPost-mediaCard{
+  padding:10px 10px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  height: 60%;
+}
+.community-OtherPost-mediaCard-text{
+  margin-left: 5%;
+  margin-top: 5%;
+  font-family: 'PT Sans', sans-serif;
+}
+.community-OtherPost-mediaCard img{
+   width: 30%;
+  height: 30%;
+}
